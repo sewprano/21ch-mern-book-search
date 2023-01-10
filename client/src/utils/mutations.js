@@ -25,7 +25,7 @@ export const SAVE_BOOK = gql`
     savedBooks {
       authors
       bookId
-      descrition
+      description
       image
       link
       title
@@ -43,7 +43,7 @@ export const REMOVE_BOOK = gql`
     savedBooks {
       authors
       bookId
-      descrition
+      description
       image
       link
       title
